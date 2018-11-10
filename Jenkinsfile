@@ -1,16 +1,23 @@
 pipeline {
 	agent any
 	stages{
+			stage('Init'){
+				steps{
+					echo "I am shruti and testing jenkins.."
+				}
+			}
+			
 			stage('Build'){
 				steps{
-					sh 'mvn clean package'
+					echo "Now Building.."
 				}
-				post{
-					success{
-						echo 'Now storing binary..'
-						archiveArtifacts artifacts: '**/target/*.war'
-					}
+			}
+			
+			stage('Deploy'){
+				steps{
+					echo "Code deployed.."
 				}
 			}
 		}
 	}
+	
