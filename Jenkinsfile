@@ -3,7 +3,6 @@ pipeline {
 	stages{
 			stage('Build'){
 				steps{
-					echo 'Now Building..'
 					sh 'mvn clean package'
 				}
 				post{
