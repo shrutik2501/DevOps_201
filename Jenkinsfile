@@ -1,10 +1,9 @@
 pipeline {
 	agent any
 	stages{
-	
-		stage('Initialation'){
+		stage('Initialization'){
 				steps{
-					echo "I am shruti and testing jenkins.."
+					echo "Initializing repsitory.."
 				}
 			}
 			stage('Build'){
