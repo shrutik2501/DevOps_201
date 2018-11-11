@@ -207,10 +207,10 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:https://github.com/shrutik2501/Maven_project.git</connection>
-    <developerConnection>scm:git:https://github.com/shrutik2501/Maven_project.git</developerConnection>
+    <connection>scm:https://github.com/shrutik2501/sd.git</connection>
+    <developerConnection>scm:git:https://github.com/shrutik2501/sd.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/shrutik2501/Maven_project.git</url>
+    <url>https://github.com/shrutik2501/sd.git</url>
   </scm>
 
   <prerequisites>
